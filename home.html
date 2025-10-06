@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dexmarn's Credit Finance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💰 Dexmarn's Credit Finance</h1>
+    <nav>
+      <a href="admin.html">Admin Login</a>
+    </nav>
+  </header>
+
+  <section class="info-section">
+    <h2>Welcome to Dexmarn's Credit Finance</h2>
+    <p>We provide fast, easy, and safe credit loans for our customers. Apply now and get your loan approved within minutes!</p>
+  </section>
+
+  <section class="container">
+    <h2>Apply for Credit</h2>
+    <form id="creditForm">
+      <label>Name:</label>
+      <input type="text" id="userName" required>
+
+      <label>Amount (K20 - K300):</label>
+      <input type="number" id="amount" min="20" max="300" required>
+
+      <button type="submit">Request Credit</button>
+    </form>
+    <p id="creditMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
